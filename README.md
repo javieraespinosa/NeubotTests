@@ -2,11 +2,7 @@
 
 ## Installation 
 
-```sh
+```sh     
 unzip "speedtests/*.zip" -d speedtests/
-
-rm -r  speedtests/*.zip \ 
-       speedtests/.DS_Store \
-       __MACOSX 
-
+sudo rm -r .git speedtests/*.zip speedtests/__MACOSX  
 ```
