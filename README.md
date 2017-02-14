@@ -1,6 +1,6 @@
 # NeubotTests
 
-Collection of download/upload HTTP speedtests obtenined through the [Neubot project](http://www.neubot.org).
+Collection of *download/upload HTTP speedtests* obtenined through the [Neubot project](http://www.neubot.org).
 
 ### Installation 
 
