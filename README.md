@@ -1,6 +1,8 @@
 # NeubotTests
 
-Collection of *download/upload HTTP speedtests* obtenined through the [Neubot project](http://www.neubot.org). 
+Collection of *download/upload HTTP speedtests* obtenined through the [Neubot project](http://www.neubot.org). See [Analyzing Large Data Collections with Apache Pig](http://espinosa-oviedo.com/big-data-visualization/hands-on/analyzing-large-data-collections-with-apache-pig/) for an example of how to work with this data collection. 
+
+### Schema
 
 Collection's records have the following structure:
 
