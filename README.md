@@ -1,6 +1,31 @@
 # NeubotTests
 
-Collection of *download/upload HTTP speedtests* obtenined through the [Neubot project](http://www.neubot.org).
+Collection of *download/upload HTTP speedtests* obtenined through the [Neubot project](http://www.neubot.org). 
+
+Collection's records have the following structure:
+
+Name | Description
+---- | ------------
+client_address |	User IP address (IPv4 or IPv6)
+client_country |	Country where the test was conducted
+client_provider |	Name of user’ internet provider
+connect_time |	Number of seconds elapsed between the reception of the first and last package (Round-Trip Time)
+download_speed |	Download speed (bytes/secs)
+neubot_version |	Neubot version used for this test
+platform |	User operative system
+remote_address |	IP address (IPv4 or IPv6) of the server used for this test
+test_name	| Test type (ex., speedtest, bittorrent, dash)
+timestamp	| Time at which the test was realized. Measured as the number of seconds elapsed after 1/01/1970 (cf. UNIX timestamp)
+upload_speed	| Upload speed (bytes/secs)
+latency	| Delay between the sent and reception of a control package
+uuid	| User ID (generated automatically by Neubot during installation)
+asnum	| Internet provider’ ID
+region	| Country region in which the test was realized (if known)
+city	| Name of the city
+hour	| derived from timestamp
+month | derived from timestamp
+year | derived from timestamp
+
 
 ### Installation 
 
