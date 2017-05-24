@@ -10,7 +10,10 @@ Name | Description
 ---- | ------------
 client_address |	User IP address (IPv4 or IPv6)
 client_country |	Country where the test was conducted
+lon | Longitud derived from client_address
+lat | Latitud derived from client_address
 client_provider |	Name of user’ internet provider
+mlabservername  | Name of the server used for conducting the experiment
 connect_time |	Number of seconds elapsed between the reception of the first and last package (Round-Trip Time)
 download_speed |	Download speed (bytes/secs)
 neubot_version |	Neubot version used for this test
@@ -27,6 +30,9 @@ city	| Name of the city
 hour	| derived from timestamp
 month | derived from timestamp
 year | derived from timestamp
+weekday | derived from timestamp
+day | derived from timestamp
+filedate | derived from timestamp
 
 
 ### Installation 
